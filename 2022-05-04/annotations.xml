@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>13</id>
+      <name>2022-05-04</name>
+      <size>3</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2023-08-30 01:20:01.389938+00:00</created>
+      <updated>2023-08-30 01:51:29.542043+00:00</updated>
+      <subset>Train</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>2</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>98</id>
+          <start>0</start>
+          <stop>0</stop>
+          <url>httpsex.spacetechnology.net/api/jobs/98</url>
+        </segment>
+        <segment>
+          <id>99</id>
+          <start>1</start>
+          <stop>1</stop>
+          <url>httpsex.spacetechnology.net/api/jobs/99</url>
+        </segment>
+        <segment>
+          <id>100</id>
+          <start>2</start>
+          <stop>2</stop>
+          <url>httpsex.spacetechnology.net/api/jobs/100</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>masterp</username>
+        <email></email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>nest</name>
+          <color>#733380</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>subcolony</name>
+          <color>#66ff66</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>adult</name>
+          <color>#ff00cc</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>hatchling</name>
+          <color>#5986b3</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2023-08-30 01:51:49.062766+00:00</dumped>
+  </meta>
+  <image id="0" name="2022-05-04/DJI_0606.JPG" width="4000" height="2250">
+  </image>
+  <image id="1" name="2022-05-04/DJI_0610.JPG" width="4000" height="2250">
+  </image>
+  <image id="2" name="2022-05-04/DJI_0615.JPG" width="4000" height="2250">
+  </image>
+</annotations>
