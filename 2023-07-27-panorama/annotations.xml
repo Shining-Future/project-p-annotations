@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>18</id>
+      <name>2023-07-27-panorama</name>
+      <size>2</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2023-08-30 01:41:05.605575+00:00</created>
+      <updated>2023-08-30 01:46:59.637168+00:00</updated>
+      <subset>Train</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>1</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>142</id>
+          <start>0</start>
+          <stop>0</stop>
+          <url>httpsex.spacetechnology.net/api/jobs/142</url>
+        </segment>
+        <segment>
+          <id>143</id>
+          <start>1</start>
+          <stop>1</stop>
+          <url>httpsex.spacetechnology.net/api/jobs/143</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>masterp</username>
+        <email></email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>nest</name>
+          <color>#733380</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>subcolony</name>
+          <color>#66ff66</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>adult</name>
+          <color>#ff00cc</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>hatchling</name>
+          <color>#5986b3</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2023-08-30 01:48:03.015158+00:00</dumped>
+  </meta>
+  <image id="0" name="2023-07-27-panorama/DJI_0484.JPG" width="3000" height="1230">
+  </image>
+  <image id="1" name="2023-07-27-panorama/DJI_0510.JPG" width="3000" height="1345">
+  </image>
+</annotations>
