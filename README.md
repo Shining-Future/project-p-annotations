@@ -139,4 +139,79 @@ Field `Segment size` may be useful to set how many images may be in a job.
 
 Finally hitting `Submit & Open` or `Submit & Continue` will fail and show a pop-up window with SSH key, that must be added account-wide e. g. in *GitHub*. After public key is added to the *GitHub* account, task submission will proceed (click one of the submission buttons).
 
+> At this point newly created task should be up with cloud data source and Git-versioned annotations.
+
+---
+
+## Set up HTTPS for CVAT
+
+*CVAT* comes with optional HTTPS support ([docker-compose.https.yml](https://github.com/opencv/cvat/blob/develop/docker-compose.https.yml)), that requires Let's Encypt set up.
+
+### Let's Encrypt
+
+Just follow *CVAT* official [installation guide](https://opencv.github.io/cvat/docs/administration/basics/installation/#deploy-secure-cvat-instance-with-https).
+
+### Self-signed HTTPS
+
+This is the most interesting option. Following the [*Ubuntu* security reference](https://ubuntu.com/server/docs/security-certificates) and some experience with *Traefik* and *Docker Compose* one needs the following steps:
+
+1. Generate a CSR (certificate signing request) with `server.key` and `server.csr` as output files
+2. Generate a self-signed certificate with `server.crt` as output (X.509 format puplic key)
+3. Install `server.key` and `server.crt` to `/path/to/private` and `/path/to/public` respectively
+4. Create a drop-in [*Traefik*](https://doc.traefik.io/traefik/getting-started/configuration-overview) [config](https://doc.traefik.io/traefik/reference/dynamic-configuration/file), say, `self-signed.yml` with contents:
+
+```yaml
+tls:
+  certificates:
+    - certFile: /path/to/public/server.crt
+      keyFile: /path/to/private/server.key
+```
+5. Create a Docker Compose file, say, `docker-compose.self-signed.yml` for *CVAT*:
+
+```yaml
+services:
+  cvat_server:
+    labels:
+      - traefik.http.routers.cvat.entrypoints=websecure
+      - traefik.http.routers.cvat.tls=true
+
+  cvat_ui:
+    labels:
+      - traefik.http.routers.cvat-ui.entrypoints=websecure
+      - traefik.http.routers.cvat-ui.tls=true
+
+  traefik:
+    image: traefik:v2.4
+    container_name: traefik
+    command:
+      - '--providers.docker.exposedByDefault=false'
+      - '--providers.docker.network=cvat'
+      - '--entryPoints.web.address=:80'
+      - '--entryPoints.web.http.redirections.entryPoint.to=websecure'
+      - '--entryPoints.web.http.redirections.entryPoint.scheme=https'
+      - '--entryPoints.websecure.address=:443'
+      - '--providers.file.directory=/etc/traefik/rules'
+      # Uncomment to get Traefik dashboard
+      # - "--entryPoints.dashboard.address=:8090"
+      # - "--api.dashboard=true"
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - /path/to/public/server.crt:/path/to/public/server.crt:ro
+      - /path/to/private/server.key:/path/to/private/server.key:ro
+      - /path/to/sef-signed.yml:/etc/traefik/rules/self-signed.yml:ro
+```
+6. Start CVAT with:
+
+```shell
+docker compose -f docker-compose.yml -f docker-compose.self-signed.yml up -d
+```
+
+After these manipulations CVAT shall work over 80 port (redirecting it to 443 and using self-signed certificates).
+
+> Yeah, that's it. Browsers will complain about non-valid certificate and insecure connection (but we know it's ok).
+
+> Nevertheless protocol will be HTTPS and in certificate viewer one can see the details of the created self-signed certificate.
+
 ---
