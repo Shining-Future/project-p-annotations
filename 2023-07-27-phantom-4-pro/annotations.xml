@@ -10,7 +10,7 @@
       <overlap>0</overlap>
       <bugtracker></bugtracker>
       <created>2023-08-30 01:44:24.763693+00:00</created>
-      <updated>2023-09-01 10:31:25.729675+00:00</updated>
+      <updated>2023-09-04 10:02:02.405084+00:00</updated>
       <subset>Train</subset>
       <start_frame>0</start_frame>
       <stop_frame>6</stop_frame>
@@ -105,7 +105,7 @@
         </label>
       </labels>
     </task>
-    <dumped>2023-09-03 07:54:03.377762+00:00</dumped>
+    <dumped>2023-09-06 09:16:13.249492+00:00</dumped>
   </meta>
   <image id="0" name="2023-07-27-phantom-4-pro/DJI_0521.JPG" width="3000" height="2249">
     <box label="adult" source="manual" occluded="0" xtl="1167.40" ytl="1033.23" xbr="1195.77" ybr="1047.93" z_order="0">
@@ -2760,5 +2760,165 @@
     </box>
   </image>
   <image id="6" name="2023-07-27-phantom-4-pro/DJI_0557.JPG" width="3000" height="2249">
+    <box label="adult" source="manual" occluded="0" xtl="1547.69" ytl="1364.02" xbr="1690.23" ybr="1493.68" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="23.43" ytl="1075.19" xbr="91.95" ybr="1126.19" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="393.50" ytl="983.49" xbr="426.42" ybr="1025.71" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="1159.56" ytl="1348.13" xbr="1266.04" ybr="1415.97" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="247.55" ytl="1019.54" xbr="284.64" ybr="1054.58" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="413.96" ytl="1199.87" xbr="486.61" ybr="1262.72" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="231.06" ytl="1293.12" xbr="330.50" ybr="1366.80" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="2738.30" ytl="1135.66" xbr="2856.37" ybr="1231.91" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="635.33" ytl="1198.72" xbr="721.60" ybr="1266.13" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="950.51" ytl="1175.20" xbr="1042.82" ybr="1296.85" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="2180.29" ytl="1374.95" xbr="2381.35" ybr="1509.24" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="381.50" ytl="1121.04" xbr="452.09" ybr="1172.56" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="223.85" ytl="1021.60" xbr="308.86" ybr="1109.19" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="757.27" ytl="1174.67" xbr="837.98" ybr="1242.08" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="600.47" ytl="1332.28" xbr="699.39" ybr="1371.95" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="1313.74" ytl="1223.28" xbr="1416.35" ybr="1308.72" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="396.44" ytl="1017.48" xbr="450.54" ybr="1069.00" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="53.83" ytl="1020.06" xbr="199.63" ybr="1146.29" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="434.05" ytl="1049.94" xbr="556.68" ybr="1135.98" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="822.10" ytl="1242.08" xbr="917.41" ybr="1315.07" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="609.96" ytl="800.67" xbr="705.85" ybr="884.39" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="46.61" ytl="1213.26" xbr="136.26" ybr="1276.12" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="1312.45" ytl="1180.34" xbr="1380.72" ybr="1237.02" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="1470.45" ytl="1143.42" xbr="1520.68" ybr="1199.23" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="1236.74" ytl="1103.28" xbr="1296.85" ybr="1157.31" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="1062.14" ytl="1108.29" xbr="1121.89" ybr="1163.39" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="2229.06" ytl="1139.90" xbr="2384.48" ybr="1260.97" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="958.74" ytl="1119.02" xbr="1074.30" ybr="1211.33" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="1043.25" ytl="1211.68" xbr="1108.08" ybr="1279.09" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="38.88" ytl="1053.55" xbr="97.10" ybr="1108.16" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="1249.72" ytl="1397.08" xbr="1355.77" ybr="1478.65" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="914.84" ytl="1310.78" xbr="1072.83" ybr="1431.42" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="1897.43" ytl="841.85" xbr="2013.36" ybr="925.57" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="577.28" ytl="1230.27" xbr="664.36" ybr="1294.67" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="0.00" ytl="1167.41" xbr="41.98" ybr="1227.18" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="1098.63" ytl="1182.71" xbr="1151.23" ybr="1244.25" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="2200.98" ytl="824.67" xbr="2342.67" ybr="908.39" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="596.35" ytl="1349.28" xbr="750.91" ybr="1510.03" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="678.78" ytl="1268.39" xbr="794.19" ybr="1341.55" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="2566.92" ytl="985.39" xbr="2718.98" ybr="1105.97" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="481.45" ytl="1167.41" xbr="534.01" ybr="1236.45" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="637.91" ytl="1152.78" xbr="732.79" ybr="1211.17" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="1966.73" ytl="1162.22" xbr="2059.90" ybr="1245.52" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="445.90" ytl="1249.33" xbr="544.31" ybr="1311.67" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="2454.04" ytl="1254.53" xbr="2598.30" ybr="1354.14" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="2853.33" ytl="1452.00" xbr="2999.31" ybr="1548.63" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="2102.40" ytl="1165.23" xbr="2268.99" ybr="1314.64" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="1522.79" ytl="1231.35" xbr="1653.31" ybr="1341.69" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="42.49" ytl="1149.38" xbr="107.41" ybr="1202.96" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="279.49" ytl="1114.86" xbr="341.83" ybr="1171.02" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="163.05" ytl="1117.43" xbr="251.67" ybr="1189.56" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="311.43" ytl="1063.34" xbr="374.29" ybr="1112.28" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="474.24" ytl="1004.09" xbr="534.52" ybr="1051.49" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="1083.18" ytl="1241.74" xbr="1166.04" ybr="1305.28" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="767.57" ytl="1095.16" xbr="846.57" ybr="1158.70" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="2746.17" ytl="1039.42" xbr="2820.59" ybr="1108.83" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="999.52" ytl="1042.82" xbr="1098.63" ybr="1111.87" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="1749.05" ytl="1197.43" xbr="1916.07" ybr="1368.74" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="2775.15" ytl="1096.66" xbr="2911.83" ybr="1187.54" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="2801.99" ytl="1041.21" xbr="2929.00" ybr="1110.97" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="2664.60" ytl="970.72" xbr="2779.80" ybr="1039.77" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="599.57" ytl="1104.77" xbr="649.36" ybr="1146.51" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="166.40" ytl="1018.56" xbr="218.44" ybr="1076.27" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="472.93" ytl="860.77" xbr="568.46" ybr="949.15" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="2499.30" ytl="866.96" xbr="2629.53" ybr="976.80" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="416.40" ytl="865.42" xbr="526.24" ybr="921.60" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="2538.30" ytl="997.56" xbr="2657.08" ybr="1060.53" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="322.77" ytl="1089.10" xbr="433.54" ybr="1212.75" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="1333.49" ytl="1084.60" xbr="1523.26" ybr="1244.31" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="901.95" ytl="1179.31" xbr="971.08" ybr="1238.13" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="1275.06" ytl="1440.44" xbr="1422.32" ybr="1558.08" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="743.78" ytl="809.25" xbr="813.90" ybr="890.11" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="1150.59" ytl="1261.06" xbr="1237.75" ybr="1316.44" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="168.72" ytl="1084.98" xbr="217.66" ybr="1132.89" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="736.42" ytl="1027.25" xbr="790.69" ybr="1074.06" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="383.05" ytl="1175.65" xbr="446.93" ybr="1228.72" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="206.33" ytl="1215.33" xbr="287.73" ybr="1277.15" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="249.61" ytl="903.62" xbr="362.44" ybr="980.90" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="516.59" ytl="967.80" xbr="568.52" ybr="1015.01" z_order="0">
+    </box>
+    <box label="adult" source="manual" occluded="0" xtl="329.47" ytl="1251.39" xbr="427.87" ybr="1318.37" z_order="0">
+    </box>
   </image>
 </annotations>
